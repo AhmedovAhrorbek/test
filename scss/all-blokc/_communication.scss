@@ -1,0 +1,55 @@
+
+
+
+
+.communication__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 147px;
+    background-image: url('../img/Path\ 4.svg') , url('../img/Path\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top:550px;
+    right: 300px;
+}
+
+.communication__start-title {
+   width: 445px;
+   margin: 0px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* or 100% */
+
+    letter-spacing: -2.14286px;
+
+    color: #495567;
+}
+
+.communication__start-text {
+    margin: 0px;
+    margin-top: 24px;
+    width: 445px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+
+    color: #939CAA;
+}
+
+.communication__start_end{
+    margin-top: 40px;
+}
+
+.cummunication__end-img{
+  
+
+}

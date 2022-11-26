@@ -1,3 +1,8 @@
+:root {
+  --btn-bg-color: #FCB72B;
+  --hero-text-color: #ffffff;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -438,15 +443,6 @@ img {
   vertical-align: middle;
 }
 
-:root {
-  --btn-bg-color: #FCB72B;
-  --hero-text-color: #ffffff;
-  --main-text-color: #202020;
-  --news-time-text-color: #6b6d97;
-  --popular-news-bg-color: #f6f6f9;
-  --footer-bg-color: #295093;
-}
-
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -579,6 +575,97 @@ img {
   padding-top: 40px;
 }
 
+.site-info {
+  margin-top: 160px;
+  height: 291px;
+  position: relative;
+}
+
+.site-info hr {
+  width: 974px;
+  margin-left: 0px;
+  height: 1px;
+  background-color: rgb(229, 236, 244);
+  border: 8px solid #E5ECF4;
+  position: absolute;
+  top: 34px;
+  z-index: -100;
+}
+
+.site__info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site__info-box {
+  width: 350px;
+}
+
+.site__info-box__slogan {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.site__info-box__text {
+  width: 350px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #939CAA;
+}
+
+.communication__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 147px;
+  background-image: url("../img/Path 4.svg"), url("../img/Path 3.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 550px;
+  right: 300px;
+}
+
+.communication__start-title {
+  width: 445px;
+  margin: 0px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.communication__start-text {
+  margin: 0px;
+  margin-top: 24px;
+  width: 445px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #939CAA;
+}
+
+.communication__start_end {
+  margin-top: 40px;
+}
+
 .btn {
   padding: 14px 39px;
   border: 3px solid transparent;
@@ -651,4 +738,95 @@ img {
 
 .hero__end {
   padding-top: 40px;
+}
+
+.site-info {
+  margin-top: 160px;
+  height: 291px;
+  position: relative;
+}
+
+.site-info hr {
+  width: 974px;
+  margin-left: 0px;
+  height: 1px;
+  background-color: rgb(229, 236, 244);
+  border: 8px solid #E5ECF4;
+  position: absolute;
+  top: 34px;
+  z-index: -100;
+}
+
+.site__info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site__info-box {
+  width: 350px;
+}
+
+.site__info-box__slogan {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.site__info-box__text {
+  width: 350px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #939CAA;
+}
+
+.communication__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 147px;
+  background-image: url("../img/Path 4.svg"), url("../img/Path 3.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 550px;
+  right: 300px;
+}
+
+.communication__start-title {
+  width: 445px;
+  margin: 0px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.communication__start-text {
+  margin: 0px;
+  margin-top: 24px;
+  width: 445px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #939CAA;
+}
+
+.communication__start_end {
+  margin-top: 40px;
 }/*# sourceMappingURL=main.css.map */
