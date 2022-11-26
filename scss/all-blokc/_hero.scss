@@ -1,6 +1,6 @@
 .site-hero {
-    height: 650px;
-    background-image: url('../img/Bitmap.jpg');
+    padding-bottom: 152px;
+    background-image: url('../../img/Bitmap.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -38,17 +38,20 @@
 }
 
 .hero__text::before {
-    content: url('../img/Path\ 2.svg');
+    content: url('../../img/Path\ 2.svg');
     position: absolute;
-    left: 0.5px;
+    
     top: 466px;
+    left: calc(50% - 766px);
+
 }
 
 .hero__text::after {
-    content: url(../img/Group\ 8\ Copy.svg);
+    content: url(../../img/Group\ 8\ Copy.svg);
     position: absolute;
-    left: 705px;
+    
     top: 468px;
+    left: calc(50% - 35px);
 }
 
  .hero__end{

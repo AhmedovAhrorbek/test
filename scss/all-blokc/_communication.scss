@@ -1,4 +1,15 @@
-
+.communication{
+    background-image: url('../../img/Mask.svg') ;
+    background-repeat: no-repeat;
+    background-position: center right;
+    z-index: 1000;
+    
+}
+.middle{
+    background-image: url('../../img/ Copy.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
 
 
 
@@ -7,18 +18,17 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 147px;
-    background-image: url('../img/Path\ 4.svg') , url('../img/Path\ 3.svg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: absolute;
-    top:550px;
-    right: 300px;
+   margin-bottom: 178px;
+   
+    
+   
+   
 }
 
 .communication__start-title {
    width: 445px;
    margin: 0px;
-    font-family: 'Space Mono';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -34,7 +44,7 @@
     margin: 0px;
     margin-top: 24px;
     width: 445px;
-    font-family: 'Lexend Deca';
+  
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -51,5 +61,5 @@
 
 .cummunication__end-img{
   
-
+   z-index: -1;
 }

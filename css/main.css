@@ -522,9 +522,15 @@ img {
   flex-grow: 1;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .site-hero {
-  height: 650px;
-  background-image: url("../img/Bitmap.jpg");
+  padding-bottom: 152px;
+  background-image: url("../../img/Bitmap.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -558,21 +564,117 @@ img {
 }
 
 .hero__text::before {
-  content: url("../img/Path 2.svg");
+  content: url("../../img/Path 2.svg");
   position: absolute;
-  left: 0.5px;
   top: 466px;
+  left: calc(50% - 766px);
 }
 
 .hero__text::after {
-  content: url(../img/Group\ 8\ Copy.svg);
+  content: url(../../img/Group\ 8\ Copy.svg);
   position: absolute;
-  left: 705px;
   top: 468px;
+  left: calc(50% - 35px);
 }
 
 .hero__end {
   padding-top: 40px;
+}
+
+.site-footer {
+  background: #495567;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__heading {
+  padding-top: 102px;
+  padding-bottom: 102px;
+  width: 415px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+
+.footer__wrapper-Appstore {
+  background-color: #E5ECF4;
+  border-radius: 4px;
+}
+
+.footer__wrapper-link {
+  text-decoration: none;
+}
+
+.footer_Appstore_end {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+.footer_Appstore_end::before {
+  display: inline-block;
+  width: 25px;
+  z-index: 2;
+  height: 28px;
+  top: 15px;
+  position: absolute;
+  height: 29px;
+  left: 13px;
+  background-image: url(../../img/shape2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 21px;
+  content: "";
+}
+
+.footer_GooglePlay_end::before {
+  display: inline-block;
+  width: 25px;
+  z-index: 2;
+  height: 28px;
+  top: 15px;
+  position: absolute;
+  height: 29px;
+  left: 13px;
+  background-image: url(../../img/);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 21px;
+  content: "";
+}
+
+.site-footer__store {
+  margin: 0px;
+  padding: 8px 15px 0px 52px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: -0.446429px;
+  color: #495567;
+}
+
+.site-footer-AppName {
+  margin: 0px;
+  padding: 0px 15px 9px 52px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  letter-spacing: -0.892857px;
+  color: #495567;
 }
 
 .site-info {
@@ -623,23 +725,30 @@ img {
   color: #939CAA;
 }
 
+.communication {
+  background-image: url("../../img/Mask.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  z-index: 1000;
+}
+
+.middle {
+  background-image: url("../../img/ Copy.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
 .communication__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 147px;
-  background-image: url("../img/Path 4.svg"), url("../img/Path 3.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  position: absolute;
-  top: 550px;
-  right: 300px;
+  margin-bottom: 178px;
 }
 
 .communication__start-title {
   width: 445px;
   margin: 0px;
-  font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -653,7 +762,6 @@ img {
   margin: 0px;
   margin-top: 24px;
   width: 445px;
-  font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -664,6 +772,10 @@ img {
 
 .communication__start_end {
   margin-top: 40px;
+}
+
+.cummunication__end-img {
+  z-index: -1;
 }
 
 .btn {
@@ -688,8 +800,8 @@ img {
 }
 
 .site-hero {
-  height: 650px;
-  background-image: url("../img/Bitmap.jpg");
+  padding-bottom: 152px;
+  background-image: url("../../img/Bitmap.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -723,17 +835,17 @@ img {
 }
 
 .hero__text::before {
-  content: url("../img/Path 2.svg");
+  content: url("../../img/Path 2.svg");
   position: absolute;
-  left: 0.5px;
   top: 466px;
+  left: calc(50% - 766px);
 }
 
 .hero__text::after {
-  content: url(../img/Group\ 8\ Copy.svg);
+  content: url(../../img/Group\ 8\ Copy.svg);
   position: absolute;
-  left: 705px;
   top: 468px;
+  left: calc(50% - 35px);
 }
 
 .hero__end {
@@ -788,23 +900,30 @@ img {
   color: #939CAA;
 }
 
+.communication {
+  background-image: url("../../img/Mask.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  z-index: 1000;
+}
+
+.middle {
+  background-image: url("../../img/ Copy.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
 .communication__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 147px;
-  background-image: url("../img/Path 4.svg"), url("../img/Path 3.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  position: absolute;
-  top: 550px;
-  right: 300px;
+  margin-bottom: 178px;
 }
 
 .communication__start-title {
   width: 445px;
   margin: 0px;
-  font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -818,7 +937,6 @@ img {
   margin: 0px;
   margin-top: 24px;
   width: 445px;
-  font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -829,4 +947,104 @@ img {
 
 .communication__start_end {
   margin-top: 40px;
+}
+
+.cummunication__end-img {
+  z-index: -1;
+}
+
+.site-footer {
+  background: #495567;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__heading {
+  padding-top: 102px;
+  padding-bottom: 102px;
+  width: 415px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+
+.footer__wrapper-Appstore {
+  background-color: #E5ECF4;
+  border-radius: 4px;
+}
+
+.footer__wrapper-link {
+  text-decoration: none;
+}
+
+.footer_Appstore_end {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+.footer_Appstore_end::before {
+  display: inline-block;
+  width: 25px;
+  z-index: 2;
+  height: 28px;
+  top: 15px;
+  position: absolute;
+  height: 29px;
+  left: 13px;
+  background-image: url(../../img/shape2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 21px;
+  content: "";
+}
+
+.footer_GooglePlay_end::before {
+  display: inline-block;
+  width: 25px;
+  z-index: 2;
+  height: 28px;
+  top: 15px;
+  position: absolute;
+  height: 29px;
+  left: 13px;
+  background-image: url(../../img/);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding-top: 21px;
+  content: "";
+}
+
+.site-footer__store {
+  margin: 0px;
+  padding: 8px 15px 0px 52px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: -0.446429px;
+  color: #495567;
+}
+
+.site-footer-AppName {
+  margin: 0px;
+  padding: 0px 15px 9px 52px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  letter-spacing: -0.892857px;
+  color: #495567;
 }/*# sourceMappingURL=main.css.map */
