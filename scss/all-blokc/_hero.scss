@@ -1,6 +1,6 @@
 .site-hero {
     padding-bottom: 152px;
-    background-image: url('../../img/Bitmap.jpg');
+    background-image: url("../img/heroimg/hero--bg.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -38,7 +38,7 @@
 }
 
 .hero__text::before {
-    content: url('../../img/Path\ 2.svg');
+    content: url('../img/heroimg/to\'g\'rli-chiziq.png');
     position: absolute;
     
     top: 466px;
@@ -47,7 +47,7 @@
 }
 
 .hero__text::after {
-    content: url(../../img/Group\ 8\ Copy.svg);
+    content: url('../img/heroimg/strelka--img.png');
     position: absolute;
     
     top: 468px;
@@ -57,3 +57,13 @@
  .hero__end{
      padding-top: 40px;
  }
+
+
+ @media only screen and (max-width: 768px) {
+    .container{
+        width: 768px;
+    }
+    .site-hero{
+        margin: 0 auto;
+     }
+}

@@ -1,14 +1,19 @@
-.communication{
-    background-image: url('../../img/Mask.svg') ;
-    background-repeat: no-repeat;
-    background-position: center right;
-    z-index: 1000;
+.communication {
+    // background-image: url('../img/communication\ img/yarimdoiraimg.png');
+    // background-repeat: no-repeat;
+    // background-position: center right;
+    // z-index: 1000;
     
+
+    
+    
+
 }
-.middle{
-    background-image: url('../../img/ Copy.jpg') ;
-    background-repeat: no-repeat;
-    background-position: center left;
+
+.middle {
+    // background-image: url("../img/communication\ img/leftyarim.png");
+    // background-repeat: no-repeat;
+    // background-position: center left;
 }
 
 
@@ -18,17 +23,20 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 147px;
-   margin-bottom: 178px;
-   
+    margin-bottom: 178px;
+    position: relative;
     
-   
-   
+
+    // background-image: url('../img/communication\ img/ustistr.png');
+    // background-repeat: no-repeat;
+    // background-position: right bottom;
+
 }
 
 .communication__start-title {
-   width: 445px;
-   margin: 0px;
-    
+    width: 445px;
+    margin: 0px;
+
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -44,7 +52,7 @@
     margin: 0px;
     margin-top: 24px;
     width: 445px;
-  
+
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -55,11 +63,59 @@
     color: #939CAA;
 }
 
-.communication__start_end{
+.communication__start_end {
     margin-top: 40px;
 }
 
-.cummunication__end-img{
+.communication__end{
+    
+}
+
+
+.first::before{
+    content: url('../img/communication\ img/ustistr.png');
+    position: absolute;
+    right: -200px;
+    top: 295px;
+    z-index: 10;
+
+}
+.first::after{
+    content: url('../img/communication\ img/yarimdoiraimg.png');
+    position: absolute;
+    right: -200px;
+    top: 26px;
+    
+}
+
+.second::before{
+    content: url('../img/communication\ img/leftyarim.png');
+   
+    position: absolute;
+    top: 20px ;
+    left: -200px ;
+    
+}
+.second::after{
+    content: url('../img/heroimg/strelka--img.png');
   
-   z-index: -1;
+     position: absolute;
+     left: -250px;
+     top: -10px;
+     z-index: 10;
+}
+
+.third::after{
+    content: url('../img/communication\ img/yarimdoiraimg.png');
+    position: absolute;
+    right: -200px;
+    top: 15px;
+    
+}
+.third::before{
+    content: url('../img/communication\ img/thirdstr.png');
+    position: absolute;
+    right: -200px;
+    top: 80px;
+    z-index: 10;
 }

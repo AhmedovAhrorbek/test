@@ -25,8 +25,17 @@
 
     color: #FFFFFF;
 }
+.wrapper__App__Gooleplay{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
 
 .footer__wrapper-Appstore {
+    background-color: #E5ECF4;
+    border-radius: 4px;
+}
+.footer__wrapper-GooglePlay{
     background-color: #E5ECF4;
     border-radius: 4px;
 }
@@ -35,9 +44,14 @@
 }
 .footer_Appstore_end{
     position: relative;
-    z-index: 2;
-    display: inline-block;
+    // z-index: 2;
+    // display: inline-block;
     
+}
+.footer__GooglePlay_end{
+    position: relative;
+    // z-index: 2;
+    // display: inline-block;
 }
 .footer_Appstore_end::before{
     display: inline-block;
@@ -48,7 +62,7 @@
     position: absolute;
     height: 29px;
     left: 13px;
-    background-image: url(../../img/shape2.svg);
+    background-image: url('../img/communication\ img/applelogo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -58,21 +72,21 @@
 }
 
 .footer_GooglePlay_end::before{
+    
     display: inline-block;
-    width: 25px;
-    z-index: 2;
-    height: 28px;
+    width: 28px;
+    z-index: 10;
+    height: 30px;
     top: 15px;
     position: absolute;
-    height: 29px;
+    height: 30px;
     left: 13px;
-    background-image: url(../../img/);
+    background-image: url('../img/communication\ img/applelogo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     padding-top: 21px;
     content: "";
-
 }
 
 .site-footer__store {
@@ -103,4 +117,49 @@
     letter-spacing: -0.892857px;
 
     color: #495567;
+}
+
+.footer__end{
+    width: 100%;
+    background-color: #333A44;
+    height: 96px;
+}
+
+.site__footer-end{
+    
+    background-color: #333A44;
+}
+
+.site__footer-end-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 32px;
+
+}
+
+.wrapper_footer__logo__navbar{
+    display: flex;
+    align-items: center;
+    gap: 58.08px;
+}
+
+.header__nav-item{
+    border: none;
+}
+
+
+.site__footer-end-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.site__footer-end-item{
+    list-style-type: none;
+
+}
+.site__footer-end-item a:active{
+     color: white;
 }
