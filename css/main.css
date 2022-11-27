@@ -519,17 +519,7 @@ img {
   color: var(--btn-bg-color);
 }
 
-@media only screen and (max-width: 768px) {
-  .container {
-    width: 500px;
-  }
-}
-.main {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
+
 
 .site-hero {
   padding-bottom: 152px;
