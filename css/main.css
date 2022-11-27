@@ -477,6 +477,7 @@ img {
 
 .header__site-logo__nav-list-wrapper {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -518,6 +519,11 @@ img {
   color: var(--btn-bg-color);
 }
 
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
 .main {
   flex-grow: 1;
   display: flex;
